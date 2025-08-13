@@ -7,7 +7,7 @@ const Productupdates = () => {
        <Product name="Laptop" price={50000} />
       <Product name="Phone" price={20000} />
     </div>
-  )
+)
 }
 
 export default Productupdates
