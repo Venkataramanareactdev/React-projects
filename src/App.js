@@ -1,6 +1,6 @@
 import './App.css';
+import ImageSlider from './useState_examples/ImageSlider';
 import Fexample from './Examoles/Fexample';
-
 import Employeecard from './props_exaples/Topic-1/Task-2/Employeecard';
 import Profileimage from './props_exaples/Topic-1/Task-3/Imagescard';
 import Buttons from './useState_examples/Buttons';
@@ -13,6 +13,7 @@ import Firstreactgit from './Reactgit/firstreactgit';
 function App() {
   return (
     <div className="App">
+      <ImageSlider />
       <Employeecard />
       <Profileimage />
       <Fexample/>
