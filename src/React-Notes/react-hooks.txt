@@ -44,3 +44,9 @@ Dependencies control when it runs ([] = only once, [count] = when count changes)
 useContext:
 const theme = useContext(ThemeContext);
 Accesses context values without needing a wrapper component.
+
+How React Knows Which State to Return:
+
+Hooks are stored in an internal array (like a linked list).
+On each render, React "walks" through this array in the order the hooks were defined.
+That's why consistent order is crucial.
