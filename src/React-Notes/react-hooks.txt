@@ -50,3 +50,11 @@ How React Knows Which State to Return:
 Hooks are stored in an internal array (like a linked list).
 On each render, React "walks" through this array in the order the hooks were defined.
 That's why consistent order is crucial.
+
+Best Practices with useState:
+
+Always call hooks at the top level of the component.
+Use functional updates (prev => new) when the new state depends on the old one.
+Avoid storing derived data (calculate it during rendering instead).
+Use lazy initialization if the initial state is heavy.
+Group related states into objects when needed—but be careful with partial updates.
