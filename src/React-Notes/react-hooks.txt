@@ -1,6 +1,6 @@
 What are Hooks in React?
 Hooks are special functions introduced in React 16.8 that let you use state,
-lifecycle methods, context, etc., in functional components. 
+lifecycle methods, context, etc. in functional components. 
 Before hooks, you could only use state and lifecycle methods
 in class components.
 
