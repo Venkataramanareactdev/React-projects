@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+  
 function ImageSlider() {
   const imageUrls = Array.from({ length: 5 }, (_, i) => `https://picsum.photos/600/400?random=${i}`);
   const [currentIndex, setCurrentIndex] = useState(0);
