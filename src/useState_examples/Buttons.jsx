@@ -8,11 +8,7 @@ const Buttons = () => {
       <button onClick={()=>setcount(count + 1) }> increase</button>
       <button onClick={()=>count > 0 && setcount(count - 1) }>decrease</button>
       <button onClick={()=>setcount(0) }>Reset</button>
-
-    </div>
-  
+ </div>
   )
-  
-}
-
+  }
 export default Buttons
