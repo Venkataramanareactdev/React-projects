@@ -5,11 +5,11 @@
         const [age, setAge] = useState('');
         const [submitted, setSubmitted] = useState(false);
         const [submittedName, setSubmittedName] = useState('');
-    const [submittedAge, setSubmittedAge] = useState('');
+        const [submittedAge, setSubmittedAge] = useState('');
         const handleSubmit = () => {
-         setSubmittedName(name);
+        setSubmittedName(name);
         setSubmittedAge(age);
-            setSubmitted(true);
+        setSubmitted(true);
         };
     
 
@@ -30,9 +30,7 @@
                 <button onClick={handleSubmit}>Submit</button>
                 {submitted && <p>name: {submittedName} age: {submittedAge} </p>
            
-                
-                
-                }
+             }
             </div>
         );
     }
