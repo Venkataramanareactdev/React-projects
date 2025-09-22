@@ -3,6 +3,7 @@ import Profilecard from './Imagesprofile'
 
 const Profileimage = () => {
   return (
+    
     <div>
       <Profilecard
           name="ravi"
