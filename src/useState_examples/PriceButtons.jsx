@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import Productupdates from "./Productupdates";
 function Product({ name, price }) {
-  const [qty, setQty] = useState(0);
+const [qty, setQty] = useState(0);
 
   return (
     <div><Productupdates/>
