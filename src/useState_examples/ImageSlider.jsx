@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
-  
+import React, { useState } from "react";
+
 function ImageSlider() {
-  const imageUrls = Array.from({ length: 5 }, (_, i) => `https://picsum.photos/600/400?random=${i}`);
+  const imageUrls = Array.from(
+    { length: 5 },
+    (_, i) => `https://picsum.photos/600/400?random=${i}`
+  );
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextImage = () => {
@@ -13,15 +16,14 @@ function ImageSlider() {
   };
 
   return (
-    <div style={{ textAlign: 'center' }}>
+    <div style={{ textAlign: "center" }}>
       <h2>Image Slider</h2>
-      <div style={{ width: '400px', height: '300px', margin: '0 auto' }}>
+      <div style={{ width: "400px", height: "300px", margin: "0 auto" }}>
         <img
-  src={imageUrls[currentIndex]}
-  alt={`Slide ${currentIndex + 1}`}
-  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-/>
-
+          src={imageUrls[currentIndex]}
+          alt={`Slide ${currentIndex + 1}`}
+          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+        />
       </div>
       <p>{`Image ${currentIndex + 1}`}</p>
       <button onClick={prevImage}>Previous</button>
