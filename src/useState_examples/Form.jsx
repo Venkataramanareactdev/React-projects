@@ -29,6 +29,7 @@
                 {submitted && <p>
                 name: {submittedName} age: {submittedAge} </p>
                 }
+                {submitted && <p>name: {submittedName} age: {submittedAge} </p>}
             </div>
         );  
     }
