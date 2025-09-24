@@ -11,9 +11,7 @@
         setSubmittedAge(age);
         setSubmitted(true);
         };
-    
-
-        return (
+       return (
             <div>
                 <input
                     type="text"
