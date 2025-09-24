@@ -26,7 +26,9 @@
                     placeholder="Enter your age"
                 />
                 <button onClick={handleSubmit}>Submit</button>
-                {submitted && <p>name: {submittedName} age: {submittedAge} </p>}
+                {submitted && <p>
+                name: {submittedName} age: {submittedAge} </p>
+                }
             </div>
         );  
     }
