@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function ShowPassword({ label }) {
   const [show, setShow] = useState(false);
-  const [password, setPassword] = useState('');
+  const [password, setPassword] = useState('    ');
 
   return (
     <div>
