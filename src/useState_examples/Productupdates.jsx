@@ -10,4 +10,4 @@ const Productupdates = () => {
   )
 }
 
-export default Productupdates
+export default Productupdates;
